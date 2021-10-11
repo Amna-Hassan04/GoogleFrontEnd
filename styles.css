@@ -1,0 +1,452 @@
+body {
+    background: #FFFFFF;
+    margin: 0;
+    font-family: arial, sans-serif;
+   
+  }
+  html, body, div, span, applet, object, h2, a, address, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+  img {
+    border: none;
+    height: 20%;
+    top: 0;
+    margin-top: 170px;
+    width: 20%;
+  }
+  .vertical-center {
+    margin-top: 140px;
+  }
+ .searchbar {
+    border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  width: 700px;
+  height: 40px;
+}
+.searchbar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.searchbar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.searchbar-adv {
+  display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	width: 50%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+.button-s {
+     border: 1px solid transparent;
+     padding: 16px 17px;
+     outline: none;
+     font-size: 17px;
+     margin-right: 10px;
+     margin-top: 5px;
+     color: grey;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.sign-in-btn {
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius: 3px;
+  padding: 7px 12px;
+  position: relative;
+  bottom: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 14px;
+}
+nav a {
+	font-size: 15px;
+	display: inline-block;
+	line-height: 24px;
+	font-weight: 400;
+	color: rgb(0,0,0, 0.87);
+	cursor: pointer;
+	padding: 5px 6.7px;
+}
+nav a:hover {
+	text-decoration: underline;
+	opacity: .85;
+}
+nav img {
+  height: 30px;
+	width: 34px;
+	padding: 5px;
+	margin: auto 7px;
+	cursor: pointer;
+}
+nav img:hover {
+	opacity: .8;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-size: 75% 50%;
+  font: 13px/27px Arial, sans-serif;
+  height: 60px;
+  width: 100%;
+}
+
+
+
+#image {
+  height: 33px;
+  width: 92px;
+  margin: 15px;
+}
+
+.adv-h2 {
+ 
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+h2 {
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+.break {
+  border-bottom: 1px solid #ebebeb;
+
+}
+
+div.adv-search {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+div.label-table {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.block-container div.word-label-container span.word-label-container {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+div.block-container div.label-bar {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+div.block-container div.input-label {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+div.input-bar {
+  padding-right: 16px;
+}
+.jfk-textinput {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+div.block-container div.word-label-container {
+  float: left;
+  display: inline-block;
+  width: 32%;
+  min-width: 160px;
+  margin: 0 0 8px 1%;
+  color: #555;
+  font-size: 11px;
+  padding-left: 5px;
+  vertical-align: middle;
+  position: relative;
+}
+div.block-container div.input-label input[type="text"], div.block-container div.input-label span.PnexQd {
+  width: 100%;
+  text-align: left;
+}
+
+div.block-container div.label-container {
+  clear: both;
+}
+
+div.block-container div.label-bar {
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+div.block-container div.input-label {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}s
+
+div.input-bar {
+  padding-right: 16px;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+input {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+div.block-container div.input-label input[type="text"], div.block-container div.input-label span.PnexQd {
+  width: 100%;
+  text-align: left;
+}
+
+div.footer-links {
+  margin: 18px 0;
+  clear: both;
+  border-top: 1px solid #ebebeb;
+}
+
+div.block-container {
+  width: 100%;
+  clear: both;
+}
+div.block-container div.label-bar {
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.goog-flat-menu-button {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+  border: 1px solid #dcdcdc;
+  color: #444;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 27px;
+  list-style: none;
+  margin: 0 2px;
+  min-width: 46px;
+  outline: none;
+  padding: 0 18px 0 6px;
+  text-align: center;
+  text-decoration: none;
+}
+element.style {
+  position: relative;
+}
+.gGbPid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 4px;
+}
+input[type="hidden" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  display: none !important;
+  padding: initial;
+  border: initial;
+}
+
+.goog-flat-menu-button-caption {
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.goog-inline-block {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+}
+
+.goog-flat-menu-button-dropdown {
+  border-color: #777 transparent;
+  border-style: solid;
+  border-width: 4px 4px 0;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 5px;
+  top: 12px;
+}
+.a9nkvf {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: relative;
+  left: 120px;
+  top: -20px;
+  white-space: nowrap;
+}
+
+.lower-footer a {
+  text-decoration: none;
+  white-space: nowrap
+}
+
+.lower-footer {
+  margin-left: -27px
+}
+
+.footer-span {
+  padding-left: 27px;
+  margin: 0 !important
+}
+
+.footer-background {
+  background: #f2f2f2;
+  line-height: 40px;
+  min-width: 980px;
+  border-top: 1px solid #dadce0;
+}
+.lower-footer p,
+.lower-footer a {
+  color: #70757a
+}
+
+.lower-footer a:hover {
+  color: #3c4043
+}
+
+.lower-footer {
+  font-size: 14px
+}
+
+.lower-footer-holder {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0
+}
+
+a:hover {
+  text-decoration: underline
+}
+.upper-footer {
+  color: #70757a;
+  padding-left: 27px
+}
+
+.upper-footer {
+  margin-left: 30px;
+  text-align: left
+}
+
+.upper-footer-holder {
+  border-bottom: 1px solid #dadce0
+}
+
+#footer {
+  bottom: 0;
+  font-size: 10pt;
+  height: 35px;
+  position: fixed;
+  z-index: 104;
+  width: 100%;
+}
+
+#footer a {
+  color: #70757a;
+  margin: 2px 10px 0;
+}
